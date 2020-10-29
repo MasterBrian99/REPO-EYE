@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body {
+  background: rgb(208, 189, 149);
+  background: linear-gradient(
+    90deg,
+    rgba(208, 189, 149, 1) 0%,
+    rgba(71, 109, 130, 1) 100%
+  );
+}
+
+
+
+
+
+
+.head-text {
+  margin-top: 4%;
+  color: #fff;
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+.info-text{
+    color: #fff;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.form-control-borderless {
+  border: none;
+}
+
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+
+.github-btn{
+float: right;
+margin-top: 0;
+}
+
+
+
+.btn-generate{
+    margin: 2% 0;
+float: right;
+}
+
+/* info  */
+
+
+.border-rad{
+
+  border-radius: 18px 18px 18px 18px;
+-moz-border-radius: 18px 18px 18px 18px;
+-webkit-border-radius: 18px 18px 18px 18px;
+border: 0px solid #000000;
+-webkit-box-shadow: 0px 0px 37px -10px rgba(0,0,0,0.65);
+-moz-box-shadow: 0px 0px 37px -10px rgba(0,0,0,0.65);
+box-shadow: 0px 0px 37px -10px rgba(0,0,0,0.65);
+}
+.main-window{
+  margin-top: 2%;
+  padding: 2% 2%;
+  background-color: #FAFAFA;
+
+}
+
+.mmain{
+  background-color: #fff;
+  margin: 9px; 
+  color: #fff;
+  color: #000;
+  border: 2px solid rgba(0,0,0,0.2);
+  
+
+}
+
+h3{
+  padding-top: 3%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 600;
+}
+
+hr{
+  border: 1px solid rgba(0,0,0,0.2);
+
+}
+
+h4{
+  font-family: 'Cabin', sans-serif;
+  color: #7E7878;
+
+}
+
+span{
+  font-family: 'Montserrat', sans-serif; 
+  color: #000;
+}
+
+.profile-img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin: 2px 0;
+  border-style: double;
+}
+
+
+a{
+  font-size: 1.2rem;
+  color: #000;
+}
+a:hover{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+/*
+ * Footer
+ */
+ footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #7E7878;
+  color: white;
+  text-align: center;
+ }
+
+/* media screen  */
+
+
+@media(max-width:576px){
+
+
+}

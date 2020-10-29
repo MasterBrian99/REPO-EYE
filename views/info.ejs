@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- my css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="info-section ">
+        <div class="container main-window border-rad">
+            <div class="row ">
+                <div class="  col-lg-6 mmain ">
+                    <h3>Basic Information</h3>
+                    <hr>
+                    <h4>Repository Name : <span> <%= repoName %> </span> </h4>
+                    <h4>Default Branch : <span> <%= repoBranch %>  </span> </h4>
+
+                    <h4>Repository Description : <span> <%= repoDiscription %> </span> </h4>
+                    <h4>Language : <span> <%= repoLanguage %> </span> </h4>
+                    <h4>Repository Size : <span> <%= repoSize %></span> </h4>
+
+                </div>
+                <div class=" col-lg-5  mmain">
+                    <h3>Repository Statistics</h3>
+                    <hr>
+                    <h4>Forks : <span> <%= repoForks %> </span> </h4>
+                    <h4>Watchers : <span> <%= repoWatchers %> </span> </h4>
+                    <h4>Open Issues : <span> <%= repoOpenIssues %> </span> </h4>
+                    <h4>Total Stars : <span> <%= repoTotalStars %> </span> </h4>
+
+                </div>
+
+
+                <div class="col-lg-4  mmain">
+                    <h3>Owner Info</h3>
+                    <hr>
+
+
+
+                        <h4>User Name : <span> <%= repoOwnerUserName %> </span> </h4>
+                        <h4>Type : <span> <%= repoOwnerUserType %> </span> </h4>
+                        <h4>URL : <span> <a href="<%= repoOwnerUserURLLink %>" target="_blank" rel="noopener noreferrer"><%= repoOwnerUserURLLink %></a> </span> </h4>
+
+
+
+                </div>
+                <div class="col-lg-7 mmain">
+                    <h3>Repository URLs</h3>
+                    <hr>
+                    <h4>git_url : <span> <a href="<%= repoGitURL %>" target="_blank" rel="noopener noreferrer"><%= repoGitURL %></a> </span> </h4>
+                    <h4>ssh_url : <span> <a href="<%= repoSshURL %>" target="_blank" rel="noopener noreferrer"><%= repoSshURL %></a> </span> </h4>
+                    <h4>clone_url : <span>  <a href="<%= repoCloneURL %>" target="_blank" rel="noopener noreferrer"><%= repoCloneURL %></a> </span> </h4>
+                    <h4>svn_url : <span>  <a href="<%= repoSvnURL %>" target="_blank" rel="noopener noreferrer"><%= repoSvnURL %></a> </span> </h4>
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+    <footer class="blog-footer text-center">
+        <div class="footer-copyright text-center py-3">Made with ❤️️ by
+            <a href="https://github.com/MasterBrian99" target="_blank"> MasterBrian99</a>
+          </div>
+
+      </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+
+
+    <script src="app.js"></script>  
+</body>
+</html>
