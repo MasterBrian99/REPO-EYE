@@ -15,4 +15,8 @@ Made with [Node.js](http://node.org/)
 - Open Issues
 - Urls
 
-Demo - [https://repo-eye.herokuapp.com/](https://repo-eye.herokuapp.com/)
+ [https://repo-eye.herokuapp.com/](https://repo-eye.herokuapp.com/)
+ 
+ ### v2 will be avalable soon with more features...
+
+
